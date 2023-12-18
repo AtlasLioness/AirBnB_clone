@@ -42,10 +42,24 @@ button:hover {
 	margin-left: 40px;
 	order: 1;
 }
+
+.amenities h3,
+.locations h3{
+        font-weight: ^00;
+        margin: 12px auto;
+}
+
+.amenities h4,
+.locations h4{
+        font-weight: 400;
+        font-size: 12px;
+        margin: 0 auto;
+}
+
 .popover {
 	display: none;
 	background-color: #FAFAFA;
-	width: 100%;
+	width: 292px;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	margin-left: -41px;
