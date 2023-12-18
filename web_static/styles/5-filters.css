@@ -47,9 +47,9 @@ button:hover {
 	margin: 12px 0;
 }
 
-.amenities h3,
-.locations h3 {
+.amenities h4,
+.locations h4 {
 	font-weight: 400;
 	margin: 0 auto;
-	font-size: 12px;
+	font-size: 14px;
 }
