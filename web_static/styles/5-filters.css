@@ -20,6 +20,7 @@ button {
 	margin-top: 10px;
 	margin-left: auto;
 	opacity: 100%;
+	order: 2;
 }
 button:hover {
 	opacity: 90%;
