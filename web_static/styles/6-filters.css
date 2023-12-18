@@ -6,7 +6,7 @@
 	border-radius: 4px;
 	text-align: right;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
 button {
 	font-size: 18px;
@@ -29,58 +29,27 @@ button:hover {
 	width: 25%;
 	height: 100%;
 	border-right: 1px solid #DDDDDD;
+	order: 0;
 	text-align: left;
 	margin-left: 40px;
-	position: relative;
-	order: 0;
 }
-
 .amenities {
 	width: 25%;
 	height: 100%;
+	order: 1;
+	left: 25%;
 	text-align: left;
 	margin-left: 40px;
-	order: 1;
-	position: relative;
 }
-
 .amenities h3,
-.locations h3{
-        font-weight: 600;
-        margin: 12px auto;
+.locations h3 {
+	font-weight: 600;
+	margin: 12px 0;
 }
 
 .amenities h4,
-.locations h4{
-        font-weight: 400;
-        font-size: 14px;
-        margin: 0 auto;
+.locations h4 {
+	font-weight: 400;
+	margin: 0 auto;
+	font-size: 14px;
 }
-
-.popover {
-	display: none;
-	background-color: #FAFAFA;
-	width: 100%;
-	border: 1px solid #DDDDDD;
-	border-radius: 4px;
-	margin: 0;
-	position: absolute;
-}
-
-.popover li {
-	margin: 12px;
-}
-.popover h2 {
-	font-size: 16px;
-        margin: 0;
-}
-.filters ul {
-	list-style: none;
-	margin: 0;
-}
-
-.filters .location:hover .popover 
-.filters .amenities:hover .popover {
-	display: block;
-}
-
