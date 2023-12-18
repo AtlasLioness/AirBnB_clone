@@ -53,3 +53,27 @@ button:hover {
 	margin: 0 auto;
 	font-size: 14px;
 }
+.popover {
+	background: #FAFAFA;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	display: none;
+	border-radius: 4px;
+	position: absolute;
+	margin: 0;
+}
+.popover h2 {
+	font-size: 16px;
+	margin: 0;
+}
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
+	display: block;
+}
+.filters ul {
+	list-style: none;
+	margin: 0;
+}
+.popover li {
+	margin: 12px;
+}
